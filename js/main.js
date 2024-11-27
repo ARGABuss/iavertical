@@ -7,7 +7,7 @@ const scripts = [
     // 'js/isotope.pkgd.min.js',
     // 'js/wow.js',
     'js/script.js',
-    'google-tag-managerfooter'
+    // 'google-tag-managerfooter'
 ];
 
 // Cargar el header de forma dinámica
@@ -83,5 +83,5 @@ async function loadScriptsInOrder(scripts) {
     for (const script of scripts) {
         await loadScript(script);  // Espera que el script actual se cargue antes de pasar al siguiente
     }
-    console.log('Todos los scripts han sido cargados en orden.');
+    // console.log('Todos los scripts han sido cargados en orden.');
 }
