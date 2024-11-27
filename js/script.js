@@ -26,12 +26,11 @@ links.forEach(function (link) {
                 //         cargarContenido(event.state.page); // Volver a cargar la página anterior
                 //     }
                 // }
-                console.log(data)
                 document.getElementById('main-section').classList.remove("bg-black", 'text-white')
                 if (document.getElementById('myVideo')) {
                     document.getElementById('myVideo').remove()
                 }
-                document.location.href=`/#${page.split("/")[1]}`
+                // document.location.href=`/#${page.split("/")[1]}`
                 // document.getElementById('content').innerHTML = data;
                 document.getElementById("dinamicContent").innerHTML = data;
                 document.getElementById("main-header").classList.add('main-header', 'header-three', 'text-white')
