@@ -36,6 +36,16 @@
         <link href="css/slick.css" rel="stylesheet" />
         <!--====== Main Style ======-->
         <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "EjhIhpJnsylsS4z1D",
+      });
+   })();
+</script>
 	</head>
 	<body>
 		<!-- Header -->
@@ -61,6 +71,35 @@
 			</iframe>
 		</noscript>
 	<!-- End Google Tag Manager (noscript) -->
+
+  
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('mGiZ7TohNYQrV0Y2L')
+    // var btn = document.getElementById('button');
+
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
+//   emailjs.init('mGiZ7TohNYQrV0Y2L')
+
+//    btn.value = 'Sending...';
+
+//    const serviceID = 'default_service';
+//    const templateID = 'template_8jie9m9';
+
+//    emailjs.sendForm(serviceID, templateID, this)
+//     .then(() => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       btn.value = 'Send Email';
+//       alert(JSON.stringify(err));
+//     });
+// });
+  </script>
 
 </body>
 </html>

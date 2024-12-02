@@ -68,16 +68,7 @@ a {
   transition: 0.5s;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: none;
-  outline: none;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  border-radius: 7px;
-    /* width: 200px; */
-    /* text-align: center; */
-    background-color: rgba(211, 211, 211, 0.5);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+
 
 a:focus,
 a:visited {
