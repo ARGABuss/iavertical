@@ -74,7 +74,7 @@ function getPageHTML(page) {
                         emailjs.sendForm(serviceID, templateID, this)
                             .then(() => {
                                 btn.innerHTML = 'Enviar PQR';
-                                btns.disabled = true;
+                                btn.disabled = true;
 
                                 document.getElementById('response-message').innerHTML = `
                              <div class="alert alert-success">¡PQR enviado correctamente!</div>`
